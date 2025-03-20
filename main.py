@@ -19,13 +19,7 @@ timetable_template_id = "eyw1FK3ru3r0zxWjMdcnop4j5Q-BrD71mnG9vStfMkg"
 
 
 def get_weather(my_city):
-    urls = ["http://www.weather.com.cn/textFC/hb.shtml",
-            "http://www.weather.com.cn/textFC/db.shtml",
-            "http://www.weather.com.cn/textFC/hd.shtml",
-            "http://www.weather.com.cn/textFC/hz.shtml",
-            "http://www.weather.com.cn/textFC/hn.shtml",
-            "http://www.weather.com.cn/textFC/xb.shtml",
-            "http://www.weather.com.cn/textFC/xn.shtml"
+    urls = ["https://www.qweather.com/?ref=www.8kmm.com",
             ]
     for url in urls:
         resp = requests.get(url)
