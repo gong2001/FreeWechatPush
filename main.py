@@ -159,8 +159,11 @@ if __name__ == '__main__':
     #weather_report("青岛")
     # timetable("第二教学楼十分钟后开始英语课")
 
-    # schedule.every().day.at("18:30").do(weather_report, "南京")
-    # schedule.every().monday.at("13:50").do(timetable, "第二教学楼十分钟后开始英语课")
+     schedule.every().day.at("08:00").do(weather_report, "济南")
+     schedule.every().day.at("08:30").do(timetabile, "不要忘记上班打卡小刘")
+     schedule.every().day.at("18:00").do(timetabile, "不要忘记下班打卡小刘")
+     schedule.every().day.at("18:30").do(timetabile, "不要忘记下班打卡小刘")
+     schedule.every().firday.at("13:50").do(timetable, "不要忘记写周报")
     #while True:
     #    schedule.run_pending()
     #    time.sleep(1)
