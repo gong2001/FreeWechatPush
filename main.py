@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 appID = "wx362f8f3a237038a0"
 appSecret = "458010b5a7a0f0cf86bcbbfe8ebf1c96"
 #收信人ID即 用户列表中的微信号，见上文
-openId = "o1ef45xX6oyQ0k5f4NO6FBth3imI"
+openId = "o1ef454V3_XGP0QZoP2s92aXn5o4"
 # 天气预报模板ID
 weather_template_id = "g5F8YskUAk2vd9vuzhSZaeD-BWJy62MwDKj7nJmftU0"
 # 时间表模板ID
