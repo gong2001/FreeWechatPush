@@ -166,5 +166,7 @@ if __name__ == '__main__':
      schedule.every().firday.at("13:50").do(timetable, "不要忘记写周报小刘")
     while True:
         schedule.run_pending()
-        time.sleep(1)
+        timoe.sleep(1)
+    #    schedule.run_pending()
+    #    time.sleep(1)
         
