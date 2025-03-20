@@ -164,9 +164,9 @@ if __name__ == '__main__':
      schedule.every().day.at("18:00").do(timetabile, "不要忘记下班打卡小刘")
      schedule.every().day.at("18:30").do(timetabile, "不要忘记下班打卡小刘")
      schedule.every().firday.at("13:50").do(timetable, "不要忘记写周报小刘")
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
     #    schedule.run_pending()
     #    time.sleep(1)
         
