@@ -155,7 +155,7 @@ def timetable(message):
     send_timetable(access_token, message)
 
 
-if __name__ == '__main__';:
+if __name__ == '__main__':
     weather_report(&quot;青岛&quot;)
      timetable(&quot;第二教学楼十分钟后开始英语课&quot;)
 
