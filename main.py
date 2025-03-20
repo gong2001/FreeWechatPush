@@ -155,18 +155,28 @@ def timetable(message):
     send_timetable(access_token, message)
 
 
-if __name__ == '__main__':
+if __name__ == &#39;__main__&#39;:
+    weather_report(&quot;青岛&quot;)
+     timetable(&quot;第二教学楼十分钟后开始英语课&quot;)
+
+     schedule.every().day.at(&quot;18:30&quot;).do(weather_report, &quot;南京&quot;)
+     schedule.every().monday.at(&quot;13:50&quot;).do(timetable, &quot;第二教学楼十分钟后开始英语课&quot;)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
+#if __name__ == '__main__':
     #weather_report("青岛")
     # timetable("第二教学楼十分钟后开始英语课")
 
-     schedule.every().day.at("08:00").do(weather_report, "济南")
-     schedule.every().day.at("08:30").do(timetabile, "不要忘记上班打卡小刘")
-     schedule.every().day.at("18:00").do(timetabile, "不要忘记下班打卡小刘")
-     schedule.every().day.at("18:30").do(timetabile, "不要忘记下班打卡小刘")
-     schedule.every().firday.at("13:50").do(timetable, "不要忘记写周报小刘")
-        while True:
-            schedule.run_pending()
-            time.sleep(1)
+     #schedule.every().day.at("08:00").do(weather_report, "济南")
+    # schedule.every().day.at("08:30").do(timetabile, "不要忘记上班打卡小刘")
+     #schedule.every().day.at("18:00").do(timetabile, "不要忘记下班打卡小刘")
+     #schedule.every().day.at("18:30").do(timetabile, "不要忘记下班打卡小刘")
+    # schedule.every().firday.at("13:50").do(timetable, "不要忘记写周报小刘")
+      #  while True:
+           # schedule.run_pending()
+          #  time.sleep(1)
     #    schedule.run_pending()
     #    time.sleep(1)
         
